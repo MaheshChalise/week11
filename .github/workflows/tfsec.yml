@@ -4,14 +4,13 @@
 # documentation.
 
 name: tfsec
-
 on:
   push:
-    branches: [ "prod,dev,staging"]
+    branches: [ "prod,dev,staging" ]
   pull_request:
     branches: [ "prod" ]
   schedule:
-    - cron: '26 8 * * 5'
+    - cron: '31 15 * * 4'
 
 jobs:
   tfsec:
