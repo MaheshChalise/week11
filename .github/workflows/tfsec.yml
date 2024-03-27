@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ "prod" ]
   schedule:
-    - cron: '31 15 * * 7'
+    - cron: '31 15 * * 4'
 
 jobs:
   tfsec:
