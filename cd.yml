@@ -1,5 +1,4 @@
-name: CD
-
+name: CD.yml
 on:
   push:
     branches: [ prod ]
